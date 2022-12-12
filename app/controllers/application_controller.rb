@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
     include ActionController::RequestForgeryProtection
 
     skip_before_action :verify_authenticity_token
-    before_action :authorize
+    #before_action :authorize
 
     private
     def authorize

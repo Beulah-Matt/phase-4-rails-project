@@ -3,7 +3,7 @@ class MoviesController < ApplicationController
 
     rescue_from ActiveRecord::RecordInvalid, with: :render_invalid_records 
 
-    skip_before_action :authorize, only: [:index, :show]
+    #skip_before_action :authorize, only: [:index, :show]
     #Setting our Movie controllers
     def index 
         #getting our instance 
