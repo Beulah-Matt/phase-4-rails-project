@@ -1,0 +1,15 @@
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/home/beulah/.rbenv/versions/2.7.0/bin/ruby -I /home/beulah/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20221212-8599-lxz2a8.rb extconf.rb
+creating Makefile
+
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20221212-8599-1225mw0/skiptrace/internal

@@ -1,0 +1,17 @@
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/racc-1.6.1/ext/racc/cparse
+/home/beulah/.rbenv/versions/2.7.0/bin/ruby -I /home/beulah/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20221212-8599-p7hfx8.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/racc-1.6.1/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/racc-1.6.1/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/racc-1.6.1/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20221212-8599-7j0igj/racc

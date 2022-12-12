@@ -1,0 +1,16 @@
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/debug-1.7.0/ext/debug
+/home/beulah/.rbenv/versions/2.7.0/bin/ruby -I /home/beulah/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20221212-8599-bozy2l.rb extconf.rb
+creating Makefile
+
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/debug-1.7.0/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/debug-1.7.0/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/beulah/Development/code/phase4/phase-4-rails-project/vendor/bundle/ruby/2.7.0/gems/debug-1.7.0/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20221212-8599-1aeyvt1/debug
