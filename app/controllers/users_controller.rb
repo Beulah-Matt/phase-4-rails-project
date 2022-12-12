@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-    before_action :authorize, only: [:show]
-
+    #before_action :authorize, only: [:show]
+    skip_before_action :authorize, only: [:create, :destroy]
     def create
         user = User.create(user_params);
         if user.valid?
