@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Contributors:
+Silvanius Mulu
+Beulah Mathenge
+Maurene Chepkemoi
+Geoffrey Matieso
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Front End Link: https://github.com/Mulu007/phase-4-frontend
+Video Walk-through: https://youtu.be/0tcskrxKcxI

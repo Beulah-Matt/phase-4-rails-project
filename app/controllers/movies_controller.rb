@@ -31,6 +31,16 @@ class MoviesController < ApplicationController
         render json: movie 
     end
 
+    def update
+        movie = Movie.find_by(id: params[:id])
+        if movie
+          movie.update(movie_params)
+          render json: movie
+        else
+          render json: {error: "movie not found"}
+        end
+    end
+
     def destroy
         movie = get_movie
         movie.destroy
