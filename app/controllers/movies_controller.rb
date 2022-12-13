@@ -46,11 +46,23 @@ class MoviesController < ApplicationController
         movie.destroy
 
     end
+    #creating our update method 
+    def update
+        movie = Movie.find_by(id: params[:id])
+        if movie
+          movie.update(movie_params)
+          render json: movie
+        else
+          render json: { error: "Movie not found" }, status: :not_found
+        end
+    end
 
     private 
     def movie_params
         params.permit(:name, :description, :movie_url, :video_url)
     end
+
+    
 
     def get_movie
         #find_by returns null empty 
